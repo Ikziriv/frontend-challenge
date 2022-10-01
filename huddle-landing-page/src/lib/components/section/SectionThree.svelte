@@ -5,7 +5,7 @@
      export let id;
 </script>
 
-<section {id} class="flex justify-center items-center w-full h-screen relative">
+<section {id} class="flex justify-center items-center w-full h-auto md:h-screen relative">
     <div class="grid grid-cols-2 gap-4 w-full h-auto">
         <div class="col-span-full md:col-span-1 flex w-full h-auto justify-center items-center">
             <div class="flex flex-col justify-start items-start space-y-4 w-auto h-auto">
