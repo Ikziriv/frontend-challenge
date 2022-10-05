@@ -3,6 +3,7 @@
 ## Table of contents
 
 - [Huddle Landing Page](https://huddle-landing-page-ch.netlify.app/)
+- [Product Preview Card Component](https://product-preview-card-component-ch.netlify.app/)
 
 ### Built with
 
