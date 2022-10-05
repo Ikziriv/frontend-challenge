@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    @font-face {
+        font-family: 'Fraunces';
+        src: url('/assets/fonts/fraunces/Fraunces_144pt_SuperSoft-Regular.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'FrauncesBold';
+        src: url('/assets/fonts/fraunces/Fraunces_144pt_SuperSoft-Bold.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'FrauncesBlack';
+        src: url('/assets/fonts/fraunces/Fraunces_144pt_SuperSoft-Black.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('/assets/fonts/montserrat/Montserrat-Regular.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'MontserratBold';
+        src: url('/assets/fonts/montserrat/Montserrat-Bold.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'MontserratBlack';
+        src: url('/assets/fonts/montserrat/Montserrat-Black.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+}
