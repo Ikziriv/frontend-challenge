@@ -38,14 +38,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
 - [Svelte](https://svelte.dev/) - JS library
 - [Sveltekit](https://kit.svelte.dev/) - Sveltekit framework
 - [TailwindCSS](https://tailwindcss.com/) - For styles
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
 ## Author
 
