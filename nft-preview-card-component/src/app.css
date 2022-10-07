@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    @font-face {
+        font-family: 'Outfit';
+        src: url('/fonts/outfit/Outfit-Regular.ttf');
+        font-weight: 400;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'OutfitBold';
+        src: url('/fonts/outfit/Outfit-Bold.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'OutfitBlack';
+        src: url('/fonts/outfit/Outfit-Black.ttf');
+        font-weight: 700;
+        font-display: swap;
+    }
+}
