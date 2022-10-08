@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    @font-face {
+        font-family: 'Barlow';
+        src: url('/assets/fonts/barlow/Barlow-Regular.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'BarlowSemiBold';
+        src: url('/assets/fonts/barlow/Barlow-SemiBold.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'BarlowBold';
+        src: url('/assets/fonts/barlow/Barlow-Bold.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'BarlowBlack';
+        src: url('/assets/fonts/barlow/Barlow-Black.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Fraunces';
+        src: url('/assets/fonts/fraunces/Fraunces-Regular.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'FrauncesSemiBold';
+        src: url('/assets/fonts/fraunces/Fraunces-SemiBold.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'FrauncesBold';
+        src: url('/assets/fonts/fraunces/Fraunces-Bold.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'FrauncesBlack';
+        src: url('/assets/fonts/fraunces/Fraunces-Black.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+}
