@@ -6,9 +6,9 @@
 </script>
 
 <div {id} class="grid grid-cols-2 gap-0 w-full h-auto md:h-screen overflow-hidden justify-center items-center relative">
-    <div class="col-span-full md:col-span-1 flex justify-center items-center w-full h-auto md:h-screen relative">
+    <div class="col-span-full md:col-span-1 flex justify-center items-center w-full h-screen md:h-screen relative">
         <img class="w-full h-full object-center object-cover z-0" src="/assets/img/desktop/image-graphic-design.jpg" alt="GraphicDesign" />
-        <div class="absolute inset-x-0 bottom-0 w-full h-auto py-8 md:py-16 z-10">
+        <div class="absolute inset-x-0 bottom-0 w-full h-auto py-16 md:py-16 z-10">
             <div class="flex flex-col space-y-4 justify-center items-center w-full h-auto relative">
                 <h1 class="text-2xl font-black font-fraunces-black text-dark-desa-cyan tracking-widest pt-8">
                     Graphic Design
@@ -19,10 +19,10 @@
             </div>
         </div>
     </div>
-    <div class="col-span-full md:col-span-1 flex justify-center items-center w-full h-auto md:h-screen relative">
+    <div class="col-span-full md:col-span-1 flex justify-center items-center w-full h-screen md:h-screen relative">
         <img class="w-full h-full object-center object-cover z-0" src="/assets/img/desktop/image-photography.jpg" alt="Photography" />
         <div class="absolute inset-x-0 bottom-0 w-auto h-auto z-10">
-            <div class="absolute inset-x-0 bottom-0 w-full h-auto py-8 md:py-16 z-10">
+            <div class="absolute inset-x-0 bottom-0 w-full h-auto py-16 md:py-16 z-10">
                 <div class="flex flex-col space-y-4 justify-center items-center w-full h-auto relative">
                     
                 <h1 class="text-2xl font-black font-fraunces-black text-dark-blue tracking-widest pt-8">
