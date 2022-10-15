@@ -1,38 +1,39 @@
-# create-svelte
+# Frontend Mentor - Blogr landing page solution
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Creating a project
+## Table of contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+  - [Built with](#built-with)
+- [Author](#author)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Overview
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### The challenge
 
-## Developing
+Users should be able to:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-```bash
-npm run dev
+### Links
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- Live Site URL: [Add live site URL here](https://sunnyside-agency-landing-page-ch.netlify.app/)
 
-## Building
+### Built with
 
-To create a production version of your app:
+- [Svelte](https://svelte.dev/) - JS library
+- [Sveltekit](https://kit.svelte.dev/) - Sveltekit framework
+- [TailwindCSS](https://tailwindcss.com/) - For styles
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
-```bash
-npm run build
-```
+## Author
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Website - [Ikziriv Design & Development](https://www.ikziriv.com)
+- Frontend Mentor - [@Ikziriv](https://www.frontendmentor.io/profile/Ikziriv)
+- Twitter - [@ikziriv](https://www.twitter.com/ikziriv)

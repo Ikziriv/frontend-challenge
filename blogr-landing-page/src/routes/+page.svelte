@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import SectionOne from "../lib/components/section/SectionOne.svelte";
+    import SectionTwo from "../lib/components/section/SectionTwo.svelte";
+    import SectionThree from "../lib/components/section/SectionThree.svelte";
+    import SectionFour from "../lib/components/section/SectionFour.svelte";
+</script>
+
+<SectionOne id="section-jumbotron" />
+<SectionTwo id="section-editor" />
+<SectionThree id="section-phones" />
+<SectionFour id="section-laptop" />

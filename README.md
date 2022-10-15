@@ -8,6 +8,7 @@
 - [QR Code Component](https://qr-code-component-ch.netlify.app/)
 - [NFT Preview Card Component](https://nft-preview-card-component-ch.netlify.app/)
 - [Sunnyside Agency Landing Page](https://sunnyside-agency-landing-page-ch.netlify.app/)
+- [Blogr Landing Page]()
 
 ### Built with
 

@@ -8,45 +8,45 @@
         font-weight: normal;
         font-display: swap;
     }
-@font-face {
+    @font-face {
         font-family: 'OverpassSemiBold';
         src: url('/assets/fonts/overpass/Overpass-SemiBold.ttf');
         font-weight: normal;
         font-display: swap;
     }
-@font-face {
+    @font-face {
         font-family: 'OverpassBold';
         src: url('/assets/fonts/overpass/Overpass-Bold.ttf');
         font-weight: normal;
         font-display: swap;
     }
-@font-face {
+    @font-face {
         font-family: 'OverpassBlack';
         src: url('/assets/fonts/overpass/Overpass-Black.ttf');
         font-weight: normal;
         font-display: swap;
     }
-@font-face {
+    @font-face {
         font-family: 'Ubuntu';
-        src: url('/assets/fonts/ubuntu/UbuntuRegular.ttf');
+        src: url('/assets/fonts/ubuntu/Ubuntu-Regular.ttf');
         font-weight: normal;
         font-display: swap;
     }
-@font-face {
+    @font-face {
         font-family: 'UbuntuSemiBold';
-        src: url('/assets/fonts/ubuntu/UbuntuSemiBold.ttf');
+        src: url('/assets/fonts/ubuntu/Ubuntu-SemiBold.ttf');
         font-weight: normal;
         font-display: swap;
     }
-@font-face {
+    @font-face {
         font-family: 'UbuntuBold';
-        src: url('/assets/fonts/ubuntu/UbuntuBold.ttf');
+        src: url('/assets/fonts/ubuntu/Ubuntu-Bold.ttf');
         font-weight: normal;
         font-display: swap;
     }
-@font-face {
+    @font-face {
         font-family: 'UbuntuBlack';
-        src: url('/assets/fonts/ubuntu/UbuntuBlack.ttf');
+        src: url('/assets/fonts/ubuntu/Ubuntu-Black.ttf');
         font-weight: normal;
         font-display: swap;
     }
