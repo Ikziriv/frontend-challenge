@@ -9,7 +9,7 @@
     <div class="flex w-auto h-auto py-4 px-4 mb-8 md:mb-16 text-center">
         <h1 class="font-bold font-ubuntu text-3xl md:text-4xl text-vd-grayish-blue">Design for the future</h1>
     </div>
-    <div class="z-10 grid grid-cols-2 gap-4 w-full h-auto justify-start items-center px-6 md:px-32 pb-40 md:pb-0">
+    <div class="z-10 grid grid-cols-2 gap-4 w-full h-auto md:h-[450px] justify-start items-center px-6 md:px-32 pb-40 md:pb-0">
         <div class="col-span-full flex md:hidden justify-center items-center">
             <div class="flex justify-center items-center w-auto h-auto md:py-0">
                 <img class="w-[580px] h-auto" src="/assets/img/illustration-editor-mobile.svg" alt="Editor">
