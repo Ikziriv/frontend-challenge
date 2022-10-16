@@ -5,10 +5,11 @@
 	export let path: string;
 	export let color: string;
 	export let classes: string;
+
 	$: active = $page.url.pathname === `/${path}/`;
 </script>
 
-<a href="/{path}" class:active class="flex flex-row justify-center items-center {classes} md:space-x-2 hover:scale-[100%] transition ease-in-out duration-300">
+<a href={path} class:active class="{path} flex flex-row justify-center items-center {classes} md:space-x-2 hover:scale-[100%] transition ease-in-out duration-300">
     <span class="font-ubuuntu-bold text-{color}"><slot /></span>
     <span class="hidden md:flex w-auto h-auto">
         <Icon class="w-2 h-2 text-{color}" icon="bi:caret-down-fill" />
@@ -16,9 +17,9 @@
 </a>
 
 <style lang="postcss">
-	a * {
+	/* a * {
 		text-transform: capitalize;
-	}
+	} */
 
 	/* a {
 		z-index: 1;

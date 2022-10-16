@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-	import { isMobileOpen } from '$lib/stores';
+	import { isMobileOpen, isTogglePath } from '$lib/stores';
 	import { fly, fade } from 'svelte/transition';
 	import { cubicIn, cubicOut, backInOut, elasticIn } from 'svelte/easing';
     import Icon from '@iconify/svelte';
@@ -15,6 +15,8 @@
 	let previousY = 0;
 	let currentY = 0;
 	let clientHeight = 0;
+	let isConnectOpen = false;
+    let pathName: string;
 
 	const deriveDirection = (y: number) => {
 		const direction = !previousY || previousY < y ? 'down' : 'up';
@@ -35,9 +37,9 @@
 	let navTransition = prefersReducedMotion ? fade : fly;
 
 	const pages = [
-		{ name: 'Product', path: 'product' },
-		{ name: 'Company', path: 'company' },
-		{ name: 'Contact', path: 'contact' },
+		{ name: 'Product', path: '/' },
+		{ name: 'Company', path: '/' },
+		{ name: 'Contact', path: '/' },
 	];
 </script>
 
@@ -45,7 +47,7 @@
 
 <div
     class="z-40 fixed flex flex-row justify-between items-center w-full h-auto py-12 md:py-12 px-6 md:px-32 transition-transform ease-in 
-    {currentY >= clientHeight ? 'bg-gradient-to-r from-grd-very-light-red to-grd-light-red' : ''}"
+    {currentY >= clientHeight ? 'bg-gradient-to-r from-grd-very-light-red to-grd-light-red rounded-bl-[100px] shadow-xl' : ''}"
     class:motion-safe:-translate-y-full={offscreen}
     bind:clientHeight
 >
@@ -53,7 +55,7 @@
         <div class="w-auto h-auto mr-0 md:mr-20">
             <img class="w-20 h-auto" src="/assets/img/logo.svg" alt="Blogr Logo">
         </div>
-        <div class="hidden md:flex flex-row md:space-x-6"
+        <div class="hidden md:flex flex-row md:space-x-6 relative"
             transition:navTransition={{ easing: cubicOut, x: 200, duration: 300 }}>
             {#each pages as { name, path }}
                 <NavItem {path} color="white" classes="w-auto h-auto">{name}</NavItem>
