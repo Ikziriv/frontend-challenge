@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://sunnyside-agency-landing-page-ch.netlify.app/)
+- Live Site URL: [Add live site URL here](https://news-home-page-ch.netlify.app/)
 
 ### Built with
 
