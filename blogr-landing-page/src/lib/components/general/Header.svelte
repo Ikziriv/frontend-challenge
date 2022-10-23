@@ -1,8 +1,8 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-	import { isMobileOpen, isTogglePath } from '$lib/stores';
+	import { isMobileOpen } from '$lib/stores';
 	import { fly, fade } from 'svelte/transition';
-	import { cubicIn, cubicOut, backInOut, elasticIn } from 'svelte/easing';
+	import { cubicOut } from 'svelte/easing';
     import Icon from '@iconify/svelte';
 
     import Hamburger from "../shared/Hamburger.svelte";
@@ -15,8 +15,6 @@
 	let previousY = 0;
 	let currentY = 0;
 	let clientHeight = 0;
-	let isConnectOpen = false;
-    let pathName: string;
 
 	const deriveDirection = (y: number) => {
 		const direction = !previousY || previousY < y ? 'down' : 'up';

@@ -29,6 +29,8 @@ Users should be able to:
 - [Svelte](https://svelte.dev/) - JS library
 - [Sveltekit](https://kit.svelte.dev/) - Sveltekit framework
 - [TailwindCSS](https://tailwindcss.com/) - For styles
+- [Netlify](https://www.netlify.com/) - For deploy
+
 - Flexbox
 - CSS Grid
 - Mobile-first workflow

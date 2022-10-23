@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    @font-face {
+        font-family: 'InterVariable';
+        src: url('/assets/fonts/Inter-Variable.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'InterRegular';
+        src: url('/assets/fonts/static/Inter-Regular.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'InterBold';
+        src: url('/assets/fonts/static/Inter-Bold.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'InterExtraBold';
+        src: url('/assets/fonts/static/Inter-ExtraBold.ttf');
+        font-weight: normal;
+        font-display: swap;
+    }
+}
+
+
+/* Firefox */
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #3a3a3a;
+}
+
+
+/* Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: hsl(5, 59%, 38%);
+    border-radius: 0px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: hsl(5, 85%, 63%);
+    border-radius: 0px;
+    border: 2px solid hsl(5, 85%, 63%);
+}
+
+.scroll-lock {
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.scroll-lock::-webkit-scrollbar {
+    display: none;
+}

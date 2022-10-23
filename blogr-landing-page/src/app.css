@@ -51,3 +51,41 @@
         font-display: swap;
     }
 }
+
+
+/* Firefox */
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #3a3a3a;
+}
+
+
+/* Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: hsl(209, 95%, 16%);
+    border-radius: 0px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: hsl(208, 49%, 24%);
+    border-radius: 0px;
+    border: 2px solid hsl(208, 49%, 24%);
+}
+
+.scroll-lock {
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.scroll-lock::-webkit-scrollbar {
+    display: none;
+}
