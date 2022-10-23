@@ -16,17 +16,17 @@
         </button>
     </div>
 
-    <div class="grid grid-cols-12 gap-4 md:gap-8 w-full h-auto md:h-screen">
-        <div class="col-span-full md:col-span-8 w-full h-auto md:h-screen justify-center items-center">
-            <div class="flex flex-col w-full h-auto md:h-screen justify-between items-center">
+    <div class="grid grid-cols-12 gap-4 md:gap-8 w-full h-auto md:h-auto">
+        <div class="col-span-full md:col-span-8 w-full h-auto md:h-auto justify-center items-center">
+            <div class="flex flex-col w-full h-auto md:h-auto justify-between items-center">
                 <img class="hidden md:block w-full h-auto" src="/assets/img/image-web-3-desktop.jpg" alt="ImageWeb3-Desktop" />
                 <img class="block md:hidden w-full h-auto" src="/assets/img/image-web-3-mobile.jpg" alt="ImageWeb3-Mobile" />
                 
-                <div class="grid grid-cols-2 gap-4 w-full h-auto md:h-72 border-none py-4 md:py-0">
+                <div class="grid grid-cols-2 gap-4 w-full h-auto md:h-auto md:h-auto border-none py-4 md:py-0 mt-16">
                     <div class="col-span-full md:col-span-1 flex justify-start md:justify-end items-start md:items-end w-full h-auto md:h-full pr-16 md:pr-0">
                         <h1 class="text-4xl md:text-7xl font-black font-inter-extra-bold">The Bright Future of Web 3.0?</h1>
                     </div>
-                    <div class="col-span-full md:col-span-1 flex justify-end items-end w-full h-auto md:h-full">
+                    <div class="col-span-full md:col-span-1 flex justify-center items-center w-full h-auto md:h-full">
                         <div class="flex flex-col w-full h-auto">
                             <p class="text-md md:text-lg leading-relaxed mb-8">
                                 We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
@@ -39,8 +39,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-span-full md:col-span-4 w-full h-auto md:h-screen justify-center items-center">
-            <div class="flex flex-col space-y-4 w-full h-auto md:h-screen justify-start items-start bg-very-dark-blue p-8">
+        <div class="col-span-full md:col-span-4 w-full h-auto md:h-auto justify-center items-center">
+            <div class="flex flex-col space-y-4 w-full h-auto md:h-auto justify-start items-start bg-very-dark-blue p-8">
                 <h1 class="font-bold font-inter-extra-bold text-5xl text-soft-orange px-0 pb-4 md:pb-8">New</h1>
                 <div class="flex flex-col w-full h-32 md:h-36 bg-very-dark-blue border-b">
                     <h2 class="text-xl md:text-2xl pb-2 md:pb-2 font-bold font-inter-bold text-off-white hover:text-soft-orange">Hydrogen VS Electirc Cars</h2>
