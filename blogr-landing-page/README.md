@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://blogr-landing-page-ch.netlify.app/)
+- Live Site URL: [Add live site URL here](https://blogr-landing-page-production.up.railway.app)
 
 ### Built with
 

@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://qr-code-component-ch.netlify.app/)
+- Live Site URL: [Add live site URL here](https://qr-code-component-production.up.railway.app)
 
 ### Built with
 

@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://huddle-landing-page-single-section-ch.netlify.app/)
+- Live Site URL: [Add live site URL here](https://huddle-single-section-production.up.railway.app)
 
 ### Built with
 

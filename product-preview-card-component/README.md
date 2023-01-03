@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://product-preview-card-component-ch.netlify.app/)
+- Live Site URL: [Add live site URL here](https://product-preview-card-production-9601.up.railway.app)
 
 ### Built with
 

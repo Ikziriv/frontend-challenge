@@ -5,14 +5,14 @@
 # Frontend Mentor - Challenge
 ## Table of contents
 
-- [Huddle Landing Page](https://huddle-landing-page-ch.netlify.app/)
-- [Product Preview Card Component](https://product-preview-card-component-ch.netlify.app/)
-- [Huddle Landing Page Single Section](https://huddle-landing-page-single-section-ch.netlify.app/)
-- [QR Code Component](https://qr-code-component-ch.netlify.app/)
-- [NFT Preview Card Component](https://nft-preview-card-component-ch.netlify.app/)
-- [Sunnyside Agency Landing Page](https://sunnyside-agency-landing-page-ch.netlify.app/)
-- [Blogr Landing Page](https://blogr-landing-page-ch.netlify.app/)
-- [News Home Page](https://news-home-page-ch.netlify.app/)
+- [Huddle Landing Page](https://huddle-landing-page-production.up.railway.app)
+- [Product Preview Card Component](https://product-preview-card-production-9601.up.railway.app)
+- [Huddle Landing Page Single Section](https://huddle-single-section-production.up.railway.app)
+- [QR Code Component](https://qr-code-component-production.up.railway.app)
+- [NFT Preview Card Component](https://nft-preview-card-component-production.up.railway.app)
+- [Sunnyside Agency Landing Page](https://sunnyside-agency-production.up.railway.app)
+- [Blogr Landing Page](https://blogr-landing-page-production.up.railway.app)
+- [News Home Page](https://news-home-page-production.up.railway.app)
 
 ### Built with
 
